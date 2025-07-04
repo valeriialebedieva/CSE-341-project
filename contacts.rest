@@ -1,1 +1,4 @@
-GET 
+GET https://cse-341-project-3vj1.onrender.com/contacts
+
+
+GET https://cse-341-project-3vj1.onrender.com/contacts/6867a6d2cb8e6e6e489723aa
