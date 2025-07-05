@@ -1,0 +1,32 @@
+# Get all contacts
+GET https://cse-341-project-3vj1.onrender.com/contacts
+
+# Get a single contact by ID
+GET https://cse-341-project-3vj1.onrender.com/contacts/6867a6d2cb8e6e6e489723aa
+
+# Create a new contact
+POST https://cse-341-project-3vj1.onrender.com/contacts
+Content-Type: application/json
+
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "favoriteColor": "blue",
+    "birthday": "1990-05-15"
+}
+
+# Update an existing contact by ID
+PUT https://cse-341-project-3vj1.onrender.com/contacts/6867a6d2cb8e6e6e489723aa
+Content-Type: application/json
+
+{
+    "firstName": "Brian",
+    "lastName": "Smith",
+    "email": "brian.smith@example.com",
+    "favoriteColor": "green",
+    "birthday": "1993-11-22"
+}
+
+# Delete a contact by ID
+DELETE https://cse-341-project-3vj1.onrender.com/contacts/6867a6d2cb8e6e6e489723aa
